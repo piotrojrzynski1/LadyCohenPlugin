@@ -1,0 +1,12 @@
+main: pl.ladycohen.testplugin.Main
+name: LadyCohenPlugin
+version: 1.0
+author: LadyCohen
+description: An Example plugin
+depend: [LuckPerms] 
+commands:
+  napisz:
+    description: Napisz do kogos
+    usage: /napisz
+#    permission: myplugin.mycommand
+#    permission-message: You don't have the mylugin.mycommand permission.
