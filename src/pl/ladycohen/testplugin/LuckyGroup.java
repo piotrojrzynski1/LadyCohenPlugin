@@ -2,11 +2,11 @@ package pl.ladycohen.testplugin;
 
 public class LuckyGroup {
 	
-	public LuckyGroup(String name, String prefixColor) {
+	public LuckyGroup(String name, String formattedName) {
 		Name = name;
-		PrefixColor = prefixColor;
+		FormattedName = formattedName;
 	}
 	
 	public String Name;
-	public String PrefixColor;
+	public String FormattedName;
 }

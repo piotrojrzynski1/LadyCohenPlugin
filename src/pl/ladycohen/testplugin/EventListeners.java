@@ -36,7 +36,7 @@ public class EventListeners implements Listener {
 	    	LuckyGroup group = getPlayerGroup(event.getPlayer(), event.getMessage().equalsIgnoreCase("dajrange"));
 	    	
 	    	if(group!=null) {
-	    		event.setFormat(group.PrefixColor + "[" + group.Name+ "]" + ChatColor.BLUE + "%11s: " + ChatColor.WHITE + " %s");
+	    		event.setFormat(group.FormattedName + ChatColor.BLUE + "%11s: " + ChatColor.WHITE + " %s");
 	    	}
     	}
     	catch(Exception e){

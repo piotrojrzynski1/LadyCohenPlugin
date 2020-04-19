@@ -7,13 +7,34 @@ public class GroupLibrary {
 	
 	public ArrayList<LuckyGroup> GetGroups(){
     	return new ArrayList<LuckyGroup>() {{
-    	    add(new LuckyGroup("W≈ÅA≈öCICIEL", ChatColor.UNDERLINE.toString() + ChatColor.MAGIC.toString()));
-    	    add(new LuckyGroup("Administrator", ChatColor.AQUA.toString()));
-    	    add(new LuckyGroup("pomocnik_admina", ChatColor.YELLOW.toString()));
-    	    add(new LuckyGroup("Moderator", ChatColor.DARK_GREEN.toString()));
-    	    add(new LuckyGroup("YouTuber", ChatColor.RED.toString()));
-    	    add(new LuckyGroup("S-VIP", ChatColor.DARK_RED.toString()));
-    	    add(new LuckyGroup("VIP", ChatColor.GRAY.toString()));
+    	    add(new LuckyGroup(
+    	    		"W£AåCICIEL",
+    	    		ChatColor.UNDERLINE.toString() + ChatColor.MAGIC.toString()+"[W£AåCICIEL]"
+    	    		));
+    	    add(new LuckyGroup(
+    	    		"Administrator",
+    	    		ChatColor.AQUA.toString()+"[ADMINISTRATOR]"
+    	    		));
+    	    add(new LuckyGroup(
+    	    		"pomocnik_admina",
+    	    		ChatColor.YELLOW.toString()+"[POMOCNIK ADMINA]"
+    	    		));
+    	    add(new LuckyGroup(
+    	    		"Moderator",
+    	    		ChatColor.DARK_GREEN.toString()+"[MODERATOR]"
+    	    		));
+    	    add(new LuckyGroup(
+    	    		"YouTuber",
+    	    		ChatColor.RED.toString()+"[YOU"+ChatColor.WHITE.toString()+"TUBER]"
+    	    		));
+    	    add(new LuckyGroup(
+    	    		"S-VIP",
+    	    		ChatColor.DARK_RED.toString()+"[S-VIP]"
+    	    		));
+    	    add(new LuckyGroup(
+    	    		"VIP",
+    	    		ChatColor.GRAY.toString()+"[VIP]"
+    	    		));
     	}};
 	}
 }
